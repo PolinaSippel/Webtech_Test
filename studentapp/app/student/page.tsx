@@ -4,7 +4,7 @@ import Profile from "@/components/profile";
 import { Student } from "@/types/student";
 import { getRandomUsers } from "@/services/randomUserService";
 import { useState, useEffect } from "react";
-import styles from './page.module.css';
+import styles from '../page.module.css';
 
 export default function StudentPage() {
     const [students, setStudents] = useState<Student[]>([]);
